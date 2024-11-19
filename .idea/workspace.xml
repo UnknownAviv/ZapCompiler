@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ecb435b-4a9c-4eb4-9fa8-50e237af190c" name="Changes" comment="Created class token; ctor and repr and consts of types">
+    <list default="true" id="9ecb435b-4a9c-4eb4-9fa8-50e237af190c" name="Changes" comment="Syntax error">
+      <change beforePath="$PROJECT_DIR$/.idea/Zap.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Zap.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/basic.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic.py" afterDir="false" />
     </list>
@@ -16,21 +17,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "UnknownAviv"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;UnknownAviv&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/UnknownAviv/Zap.git",
-    "accountId": "1bf6767b-adf1-4f68-80fb-e3c3ceb3ed84"
+    "accountId": "0b5430b8-1593-458a-9d45-a4069e1737c0"
   }
 }]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2p5ARSjzEfk3b0qGVGg9LnwamnF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +43,8 @@
     "Python.shell.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -69,11 +71,20 @@
       <option name="project" value="LOCAL" />
       <updated>1732046030444</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Syntax error">
+      <option name="closed" value="true" />
+      <created>1732046932511</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1732046932511</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created class token; ctor and repr and consts of types" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class token; ctor and repr and consts of types" />
+    <MESSAGE value="Syntax error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Syntax error" />
   </component>
 </project>
