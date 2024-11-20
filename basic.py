@@ -2,8 +2,24 @@
 
 DIGITS = '0123456789'
 
-#Tokens
+#Errors class
 
+class Error:
+    def __init__(self, error_name, details):
+        self.error_name = error_name
+        self.details = details
+
+    def as_str(self):
+        result  = f'{self.error_name}: {self.details}'
+        return result
+
+class IllegalCharError(Error):
+    def __init__(self, details):
+        super().__init__('Illegal Character', details)
+
+
+
+#Tokens
 TT_INT = 'TT_INT'
 TT_FLOAT = 'FLOAT'
 TT_PLUS = 'PLUS'
@@ -63,9 +79,12 @@ class Lexer:
                 tokens.append(Token(TT_RPAREN))
                 self.advance()
             else:
-                #return some error if not found
+                char = self.current_char
+                self.advance()
+                return [], IllegalCharError("'" + char + "'")
 
-        return tokens
+        return tokens, None
+
 
     def make_number(self):
         num_str = ''
@@ -84,5 +103,11 @@ class Lexer:
             return Token[TT_FLOAT, float(num_str)]
 
 
+#Run
 
+def run(text):
+    lexer = Lexer(text)
+    tokens, error = lexer.make_tokens()
+
+    return tokens, error
 
