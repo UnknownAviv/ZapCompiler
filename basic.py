@@ -88,7 +88,7 @@ class Lexer:
         self.pos = Position(-1, 0, -1, fn, text)
         self.current_char = None
         self.advance()
-
+#oz shvarz
     def advance(self):
         self.pos.advance(self.current_char)
         self.current_char = self.text[self.pos.idx] if self.pos.idx < len(self.text) else None
